@@ -1,0 +1,6 @@
+services:
+  c3pro:
+    network_mode: host
+    image: c3pro
+    build:
+      context: ./c3pro
